@@ -1,4 +1,4 @@
-
-# test 2
-# prueba general
-# Prueba 3
+print("Prueba de código")
+valor = input("Ingrese valor: ")
+print("El valor es:",valor)
+# test
