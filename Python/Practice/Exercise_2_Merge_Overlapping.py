@@ -29,7 +29,8 @@ originalArray2 = [(10, 12),(12, 15)]
 print("Original array 2: ", originalArray2)
 
 
-def getElements(orArray):
+def getElements(orArray):   # Function that can be reused to obtain first and
+                            # last element
     print("--- Worker ---")
     print("Working with: ",orArray)
     sizeOriginalArray=len(orArray)
@@ -46,7 +47,7 @@ def getElements(orArray):
     print("Final tuple:", ListFinalTuple)
     ElementFinal = ListFinalTuple[0][1]
     print("Final element:", ElementFinal)
-    
+
     return([FirstElement,ElementFinal])
 
 print("\nWorking with Array 1...")
