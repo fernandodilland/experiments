@@ -14,11 +14,6 @@ intervals (10, 12) and (12, 15) are also overlapping and should be merged to
 Try it yourself before reviewing the solution and explanation.
 """
 
-class Pair:
-    def __init__(self, first, second):
-        self.first = first
-        self.second = second
-
 def merge_intervals(v):
     result = v
     return result
