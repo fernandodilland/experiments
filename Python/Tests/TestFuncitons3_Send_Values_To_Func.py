@@ -11,6 +11,7 @@ def func(valueReceived1,valueReceived2):
     print(t,"subtract", of,valueReceived1-valueReceived2)
     print(t,"multiplication", of,valueReceived1*valueReceived2)
     print(t,"division",of,valueReceived1/valueReceived2)
+
 def main():
 
     exit=False
@@ -23,7 +24,7 @@ def main():
         func(value1,value2) # The function is sent to be called by injecting the 2 values
 
         decision = input("You want to continue? (Y/N): ")
-        if decision=="N" or "n": # If the input receives "N", the while loop is terminated.
+        if decision=="N": # If the input receives "N", the while loop is terminated.
             break # The break takes me out of the cycle
 
 main()
